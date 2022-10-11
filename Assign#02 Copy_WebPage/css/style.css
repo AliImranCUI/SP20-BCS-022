@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+html, body{
+
+    font-family:"Vollkorn",serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+    scroll-behavior: smooth;
+   
+}
+.brand{
+    font-size:20px;
+    cursor:pointer;
+    text-decoration: none;
+    color: #60a5a5;
+    font-weight: 800;
+}
+.brand:hover{
+    color: #529191;
+}
+.dk
+{
+    font-size:20px;
+    cursor:pointer;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  .items{
+    position: relative;
+    float: right;
+    text-decoration: none;
+    color: #60a5a5;
+  }
+  .items:hover{
+    color: #529191;
+  }
+  @media (max-width: 1024px) {
+    a.items{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ .akon{
+    text-decoration: none;
+    border-color: #60a5a5;
+    color: #60a5a5;
+    border-bottom: 1px solid;
+    font-weight: 800;
+    padding-bottom: 6px;
+    
+ }
+ .cs{
+    color: #60a5a5;
+
+}
+.names p{
+    margin: 0;
+}
+.btns{
+    width: 35%;
+    background-color: #60a5a5;
+    padding: 2%;
+    color: white;
+}
+.btnss{
+  width: 15%;
+  background-color: #60a5a5;
+  padding: 2%;
+  color: white;
+
+}
+.btnss:hover{
+  background-color: #529191;
+  color: white;
+  }
+.btns:hover{
+background-color: #529191;
+color: white;
+}
+.pd{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.images div img{
+  padding: 0.25em;
+  margin: 0%;
+}
